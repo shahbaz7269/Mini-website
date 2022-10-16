@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Z-Mart</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="icon"
+    href="z-mart-low-resolution-logo-transparent-background.png"
+    <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap"
+    rel="stylesheet"
+  />
+  />
+  <style>
+    body {
+      margin: opx;
+      padding: opx;
+      background: url("pexels-mike-b-211760.jpg");
+      height: 10000px;
+    }
+    .left {
+      display: inline-block;
+      position: absolute;
+      left: 20px;
+      top: -4px;
+      /* border: 2px solid red; */
+    }
+    .left img {
+      width: 100px;
+      filter: invert(100%);
+      filter: invert(100%);
+    }
+    .mid {
+      display: block;
+      width: 50%;
+      margin: -19px auto;
+      /* border: 2px solid rgb(14, 239, 115); */
+    }
+    .right {
+      position: absolute;
+      right: 34px;
+      top: 20px;
+      display: inline-block;
+      /* border: 2px solid rgb(28, 3, 54); */
+    }
+    .navbar {
+      display: inline-block;
+      font-size: 25px;
+    }
+    .navbar li {
+      display: inline-block;
+    }
+    .navbar li a {
+      color: white;
+      text-decoration: none;
+      padding: 6px 6px;
+    }
+    .navbar li a:hover,
+    .navbar li a.active {
+      text-decoration: underline;
+      color: blue;
+    }
+    .btn {
+      margin: 0px 9px;
+      background-color: rgb(12, 247, 102);
+      color: white;
+      padding: 4px 14px;
+      border: 2px solid rgb(242, 13, 13);
+      border-radius: 10px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: rgb(240, 234, 234);
+      font-family: "Roboto Slab", serif;
+    }
+    .container {
+      /* border: 2px solid green; */
+      margin: 90px 72px;
+      padding: 64px;
+      border-radius: 18px;
+      width: 33%;
+    }
+    div {
+      color: rgb(248, 157, 166);
+    }
+    .form-group input {
+      text-align: center;
+      display: block;
+      width: 428px;
+      padding: 2px;
+      border: 2px solid black;
+      margin: 3px auto;
+      font-size: 23px;
+      border-radius: 15px;
+      font-family: sans-serif;
+    }
+    .container h1 {
+      text-align: center;
+    }
+    .container button {
+      display: block;
+      width: 95%;
+      margin: 12px auto;
+    }
+  </style>
+  <body>
+    <header class="header">
+      <div class="left">
+        <img
+          src="z-mart-low-resolution-logo-transparent-background.png"
+          alt=""
+        />
+        <!-- <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">kitchenware</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul> -->
+      </div>
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">kitchenware</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <button class="btn">call us now</button>
+        <button class="btn">email us</button>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Shoping from Best Shop Of Delhi</h1>
+      <form action="noaction.php">
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your name" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your age" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your gendre" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter ypur locality" />
+        </div>
+        <button class="btn">submit</button>
+      </form>
+    </div>
+  </body>
+</html>
